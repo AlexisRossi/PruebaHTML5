@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="Descripcion" content="Ejemplo de HTML5">
         <meta name="keywords" content="HTML 5, CSS3, JavaScript">
+        <link rel="stylesheet" href="MisEstilos.css">
         <title>Este es el titulo del documento sacatacatac</title>
     </head>
     <body>
-            <header>
+        <div>
+            <header id="cabecera">
                 <h1>Este es el titulo principal de la pagina web</h1>
             </header>
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li>Principal</li>
                     <li>Fotos</li>
@@ -18,14 +20,14 @@
                     <li>Contactos</li>
                 </ul>
             </nav>
-            <section>
+            <section id="seccion">
                 <article>
                     <header>
                         <hgroup>
                             <h1>Titulo del mensaje uno</h1>
                             <h2>Subtitulo del mensaje uno</h2>
-                            <time datetime="2017-08-11" pubdate>Publicado 11-08-2017</time>
                         </hgroup>
+                        <time datetime="2017-08-11" pubdate>Publicado 11-08-2017</time>
                     </header>
                     <footer>
                         <p>Comentarios del mensaje uno (0)</p>
@@ -36,22 +38,24 @@
                         <hgroup>
                             <h1>Titulo del mensaje uno</h1>
                             <h2>Subtitulo del mensaje uno</h2>
-                        </hgroup>                        
+                        </hgroup>  
+                        <time datetime="2017-08-11" pubdate>Publicado 11-08-2017</time>                      
                     </header>
                     <footer>
                         <p>Comentarios del mensaje dos (0)</p>
                     </footer>
                 </article>
             </section>
-            <aside>
+            <aside id="columna">
                 <blockquote>Mensaje numero 1</blockquote>
                 <blockquote>Mensaje numero 2</blockquote>
             </aside>
-            <footer>
+            <footer id="pie">
                 <address>
                     <a href="http://www.google.com.ar">Para mas informacion</a>
                 </address>
             </footer>
+        </div>
     </body>
 </html>
 
